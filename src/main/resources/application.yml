@@ -13,6 +13,7 @@ spring:
             - classpath:/configurations
             - classpath:/configurations/platform
             - classpath:/configurations/services
+      fail-fast: false
 
 server:
   port: 9000
